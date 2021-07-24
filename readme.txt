@@ -11,3 +11,6 @@ sp = gTTS(text= user_input, lang= language, slow=False)
 sp.save(audio)
 playsound(audio)
 
+
+
+# You need to install the required library if it doesn't exist.
